@@ -43,8 +43,10 @@ public class Point {
     }
 
     public Point midpoint(Point pt) {
-        // TODO Auto-generated method stub
-        return null;
+        int midX=(getX()+pt.getX())/2;
+        int midY=(getY()+pt.getY())/2;
+        Point midPoint=new Point(midX,midY);
+        return midPoint;
     }
     
 }
