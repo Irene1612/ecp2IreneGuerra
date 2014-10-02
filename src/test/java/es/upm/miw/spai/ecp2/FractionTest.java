@@ -34,7 +34,8 @@ public class FractionTest {
     @Test
     public void testFractionInverse() {
         Fraction fraccionInversa = new Fraction(3, 2);
-        assertEquals(fraccionInversa, this.fraccion.fractionInverse());
+        assertEquals(fraccionInversa.getNumerator(), this.fraccion.fractionInverse().getNumerator());
+        assertEquals(fraccionInversa.getDenominator(), this.fraccion.fractionInverse().getDenominator());
     }
     
     @Test
@@ -47,7 +48,8 @@ public class FractionTest {
     public void testFractionDivision() {
         Fraction fraccion2 = new Fraction(4, 5);
         Fraction resultado = new Fraction(10, 12);
-        assertEquals(resultado, this.fraccion.fractionDivision(fraccion2));
+        assertEquals(resultado.getNumerator(), this.fraccion.fractionDivision(fraccion2).getNumerator());
+        assertEquals(resultado.getDenominator(), this.fraccion.fractionDivision(fraccion2).getDenominator());
     }
 
 }
