@@ -68,8 +68,9 @@ public class Fraction {
     }
 
     public boolean isEquivalentFraction(Fraction fraccionEquivalente) {
-        // TODO Auto-generated method stub
-        return false;
+        double fraccion1=this.numerator/this.denominator;
+        double fraccion2=fraccionEquivalente.numerator/fraccionEquivalente.denominator;
+        return fraccion1==fraccion2;
     }
 
     public Fraction fractionDivision(Fraction fraccion2) {
