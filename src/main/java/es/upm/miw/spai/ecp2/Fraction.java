@@ -59,5 +59,20 @@ public class Fraction {
     public double decimal() {
         return (double) numerator / denominator;
     }
+
+    public Fraction fractionInverse() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    public boolean isEquivalentFraction(Fraction fraccionEquivalente) {
+        // TODO Auto-generated method stub
+        return false;
+    }
+
+    public Fraction fractionDivision(Fraction fraccion2) {
+        // TODO Auto-generated method stub
+        return null;
+    }
     
 }
