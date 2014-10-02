@@ -71,8 +71,10 @@ public class Fraction {
     }
 
     public Fraction fractionDivision(Fraction fraccion2) {
-        // TODO Auto-generated method stub
-        return null;
+        Fraction inversa = fraccion2.fractionInverse();
+        Fraction resultado = new Fraction(this.getNumerator() * inversa.getNumerator(),
+                this.getDenominator() * inversa.getDenominator());
+        return resultado;
     }
-    
+
 }
