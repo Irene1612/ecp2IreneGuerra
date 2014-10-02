@@ -30,5 +30,10 @@ public class UserTest {
     public void testInitials() {
         assertEquals("I.", this.usuario.initials());
     }
+    
+    @Test
+    public void testFamilyNameCommaName() {
+        assertEquals("XI, SIJING", this.usuario.familyNameCommaName());
+    }
 
 }
