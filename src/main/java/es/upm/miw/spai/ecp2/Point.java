@@ -42,7 +42,7 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
 
-    public Point midpoint() {
+    public Point midpoint(Point pt) {
         // TODO Auto-generated method stub
         return null;
     }
