@@ -61,8 +61,10 @@ public class Fraction {
     }
 
     public Fraction fractionInverse() {
-        // TODO Auto-generated method stub
-        return null;
+        
+        Fraction fraccionInversa = new Fraction( this.getDenominator(), this.getNumerator());
+        
+        return fraccionInversa;
     }
 
     public boolean isEquivalentFraction(Fraction fraccionEquivalente) {

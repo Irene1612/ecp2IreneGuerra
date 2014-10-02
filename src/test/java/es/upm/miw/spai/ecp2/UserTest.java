@@ -33,7 +33,7 @@ public class UserTest {
     
     @Test
     public void testFamilyNameCommaName() {
-        assertEquals("XI, SIJING", this.usuario.familyNameCommaName());
+        assertEquals("Sanchez, Irene", this.usuario.familyNameCommaName());
     }
 
 }
