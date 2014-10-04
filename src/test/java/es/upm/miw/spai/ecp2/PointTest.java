@@ -52,7 +52,7 @@ public class PointTest {
     public void testMidpoint() {
         Point pt1 =new Point(4,3);
         Point ptmid= pt.midpoint(pt1);
-        assertEquals(4, ptmid.getX());
+        assertEquals(3, ptmid.getX());
         assertEquals(3, ptmid.getY());
     }
 
